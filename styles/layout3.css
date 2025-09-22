@@ -1,0 +1,100 @@
+body {
+    max-width: 960px;
+    display: grid;
+    font-family: sans-serif;
+    grid-gap: 20px;
+    margin: 20px auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70px 380px 50px 200px 200px 50px;
+    grid-template-areas:
+        "logo .    navi navi"
+        "con con con con"
+        "tit1 .    tit2 ."
+        "blo1 blo1 pro1 pro2"
+        "blo2 blo2 pro3 pro4"
+        "foot foot foot foot";
+
+}
+
+div,
+nav ul,
+header {
+    background: silver;
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-top: .3em;
+}
+
+.logo {
+    grid-area: logo;
+}
+
+nav {
+    grid-area: navi;
+    align-self: center;
+}
+
+nav ul {
+    grid-template: auto / 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    height: 50px;
+    justify-items: center;
+    align-content: center;
+}
+
+header {
+    padding: 40px;
+    grid-area: con;
+}
+
+main {
+    grid-area: main;
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+}
+
+.title1 {
+    grid-area: tit1;
+}
+
+.title2 {
+    grid-area: tit2;
+}
+
+.blog-post {
+    grid-area: blo1;
+}
+
+.feature1 {
+    grid-area: pro1;
+}
+
+.feature2 {
+    grid-area: pro2;
+}
+
+.blog-post2 {
+    grid-area: blo2;
+}
+
+.feature3 {
+    grid-area: pro3;
+}
+
+.feature4 {
+    grid-area: pro4;
+}
+.footer {
+    grid-area: foot;
+    text-align: center;
+    align-content: center;
+}

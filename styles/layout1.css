@@ -1,0 +1,59 @@
+body {
+    max-width: 960px;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+
+    grid-gap: 18px;
+    margin: 18px auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70px 300px 200px 60px;
+    grid-template-areas:
+        "logo empty    navi navi"
+        "con con con con"
+        "sec2 sec2 sec3 sec3"
+        "foot foot foot foot";
+}
+
+div,
+nav ul {
+    background: silver;
+}
+
+.logo {
+    grid-area: logo;
+}
+
+nav {
+    grid-area: navi;
+    align-self: center;
+}
+
+nav ul {
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    height: 50px;
+    justify-items: center;
+    align-content: center;
+}
+
+.featured-img {
+    grid-area: con;
+}
+
+.product1 {
+    grid-area: sec2;
+}
+
+.product2 {
+    grid-area: sec3;
+}
+.footer {
+    grid-area: foot;
+    text-align: center;
+    align-content: center;
+}
