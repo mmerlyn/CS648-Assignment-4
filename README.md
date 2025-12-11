@@ -30,3 +30,9 @@ This assignment focuses on recreating three specific layouts using **CSS Grid La
 ✅ Implement precise layout positioning  
 ✅ Create maintainable and semantic CSS code  
 ✅ Match visual designs exactly
+
+_This project demonstrates CSS Grid Layout, including grid template areas, nested grids, and alignment properties through three different page layouts._
+
+**Course:** CS 648 - Advanced Topics in Web and Mobile Applications<br>
+**University:** San Diego State University (SDSU)<br>
+**Author:** Merlyn Mercylona M
