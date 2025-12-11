@@ -2,7 +2,7 @@
 
 _This project demonstrates CSS Grid Layout, including grid template areas, nested grids, and alignment properties through three different page layouts._
 
-## Assignment Overview
+## Overview
 
 This assignment focuses on recreating three specific layouts using **CSS Grid Layout**.
 
@@ -25,13 +25,15 @@ This assignment focuses on recreating three specific layouts using **CSS Grid La
 - `justify-content`
 - `align-content`
 
-## Assignment Objectives
+## Learnings
 
-✅ Practice CSS Grid Layout syntax and properties  
-✅ Understand grid container and grid item relationships  
-✅ Implement precise layout positioning  
-✅ Create maintainable and semantic CSS code  
-✅ Match visual designs exactly
+- Practice CSS Grid Layout syntax and properties
+- Understand grid container and grid item relationships
+- Implement precise layout positioning
+- Create maintainable and semantic CSS code
+- Match visual designs exactly
+
+---
 
 **Course:** CS 648 - Advanced Topics in Web and Mobile Applications<br>
 **University:** San Diego State University (SDSU)<br>
