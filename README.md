@@ -6,35 +6,6 @@ _This project demonstrates CSS Grid Layout, including grid template areas, neste
 
 This assignment focuses on recreating three specific layouts using **CSS Grid Layout**. Each layout showcases different grid techniques with increasing complexity.
 
-## Layouts Implemented
-
-### Layout 1: Product Showcase Grid
-
-- 4-column x 4-row grid structure
-- Company logo and navigation header
-- Full-width featured product image
-- Two product cards displayed side-by-side
-- Footer section
-
-### Layout 2: Content Grid with Article Feed
-
-- 4-column x 4-row outer grid
-- Company logo and navigation header
-- Large hero section with Lorem Ipsum content
-- **Nested 3x3 grid** of content boxes (9 items)
-- Demonstrates grid-within-grid technique
-- Footer section
-
-### Layout 3: Mixed Content Layout
-
-- 4-column x 6-row grid (most complex)
-- Company logo and navigation header
-- Hero header section
-- Two title sections
-- Two blog post sections spanning multiple columns
-- Four featured products in a 2x2 arrangement
-- Footer section
-
 ## CSS Grid Properties Used
 
 - `display: grid` - Enable grid layout
