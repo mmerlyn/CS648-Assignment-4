@@ -6,13 +6,6 @@ _This project demonstrates CSS Grid Layout, including grid template areas, neste
 
 This assignment focuses on recreating three specific layouts using **CSS Grid Layout**.
 
-## Requirements
-
-- Use **CSS Grid Layout** exclusively for layout structure
-- No Flexbox or float-based layouts
-- Responsive design not required (fixed 960px width)
-- Clean, semantic HTML structure
-
 ## CSS Grid Properties Used
 
 - `display: grid`
